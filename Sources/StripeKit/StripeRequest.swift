@@ -8,6 +8,9 @@
 
 import Foundation
 import NIO
+#if canImport(NIOFoundationCompat) // not required after swift-nio 2.97.0
+import NIOFoundationCompat
+#endif
 import NIOHTTP1
 import AsyncHTTPClient
 
