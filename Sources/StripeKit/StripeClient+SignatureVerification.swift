@@ -2,7 +2,6 @@ import Foundation
 import AsyncHTTPClient
 import Crypto
 import NIO
-import NIOFoundationCompat
 import NIOHTTP1
 
 extension StripeClient {
